@@ -10,7 +10,9 @@ namespace C_4
     {
         public class EvenNumberGenerator
         {
+
             public int currentNumber;
+
 
             public EvenNumberGenerator()
             {
@@ -29,7 +31,10 @@ namespace C_4
     {
         public class OddNumberGenerator
         {
+
             public int currentNumber;
+
+         
 
             public OddNumberGenerator()
             {
@@ -48,7 +53,11 @@ namespace C_4
     {
         public class PrimeNumberGenerator
         {
+
             public int currentNumber;
+
+    
+
 
             public PrimeNumberGenerator()
             {
@@ -67,7 +76,10 @@ namespace C_4
                 return primeNumber;
             }
 
+
             public bool IsPrime(int number)
+
+
             {
                 if (number < 2)
                 {
